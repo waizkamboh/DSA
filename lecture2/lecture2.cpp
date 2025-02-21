@@ -42,6 +42,14 @@ int main(){
     //Is dafa answer int me aye ga divide honye ka bad value int ko assign ho rahi ha int data type choti ha wo decimal point ko ignore kar de i
     int ans = (5 / (double)2);
     cout<<ans<<endl;
+    //Relational Operator
+    cout<<(3 < 5)<< endl;
+    cout<<(3 <= 5)<<endl;
+    cout<<(3 > 5)<< endl;
+    cout<<(3 >= 5)<<endl;
+    cout<<(3 == 5)<<endl;
+    cout<<(3 != 5)<<endl;
+
 
 
 
