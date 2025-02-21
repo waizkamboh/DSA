@@ -53,6 +53,14 @@ int main(){
     cout<<((3 > 5) && (3 < 5))<<endl;
     cout<<((3 > 5) || (3 < 5))<<endl;
     cout<<!(3 < 5)<<endl;
+    //Uniary Operator
+    int e = 10;
+    int f = e++;//kam, update
+    cout<<"f ="<<f<<endl;
+    cout<<"e ="<<e<<endl;
+    int g = ++e;//update, kam
+    cout<<"g ="<<g<<endl;
+    cout<<"e ="<<e<<endl;
 
 
 
