@@ -22,8 +22,11 @@ int main(){
     double price1 = 100.99;
     int newPrice = (int)price1;
     cout<<newPrice<<endl;
+    int enterNumber;
+    cout<<"Enter Number";
+    cin>>enterNumber;
+    cout<<"You enter number is:"<<enterNumber<<endl;
 
-    
     return 0;
 }
 
