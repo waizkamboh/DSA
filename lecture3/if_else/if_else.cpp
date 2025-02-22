@@ -63,15 +63,27 @@ using namespace std;
 // }
 
 //Find chrachter lower or uppercase 
+// int main(){
+//     char ch;
+//     cout<<"Enter a charchter";
+//     cin>>ch;
+//     if(ch >= 'A' && ch <= 'Z'){
+//         cout<<"Uppercase";
+//     }else{
+//         cout<<"Lowercase";
+//     }
+//     return 0;
+
+// }
+//Find chrachter lower or uppercase way 2
 int main(){
     char ch;
-    cout<<"Enter a charchter";
+    cout<<"Enter a charchter\n";
     cin>>ch;
-    if(ch >= 'A' && ch <= 'Z'){
+    if(ch >= 65 && ch <= 90){
         cout<<"Uppercase";
     }else{
         cout<<"Lowercase";
     }
     return 0;
-
 }
