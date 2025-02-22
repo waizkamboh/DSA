@@ -12,15 +12,27 @@ using namespace std;
 //     }
 //     return 0;
 // }
-//Voting
+//Voting program
+// int main(){
+//     int age;
+//     cout<<"Enter the age";
+//     cin>>age;
+//     if(age >= 18){
+//         cout<<"You can vote";
+//     }else{
+//         cout<<"You can't vote";
+//     }
+//     return 0;
+// }
+//Odd Even Program
 int main(){
-    int age;
-    cout<<"Enter the age";
-    cin>>age;
-    if(age >= 18){
-        cout<<"You can vote";
+    int n;
+    cout<<"Enter a number";
+    cin>>n;
+    if(n % 2 == 0){
+        cout<<n<<" Is Even";
     }else{
-        cout<<"You can't vote";
+        cout<<n<<" Is odd";
     }
     return 0;
 }
