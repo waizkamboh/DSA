@@ -1,14 +1,26 @@
 #include <iostream>
 using namespace std;
 //Positive or negative number
+// int main(){
+//     int n;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     if(n >=0){
+//         cout<<n<<" Number is positive";
+//     }else{
+//         cout<<n<<" Number is negative";
+//     }
+//     return 0;
+// }
+//Voting
 int main(){
-    int n;
-    cout<<"Enter a number";
-    cin>>n;
-    if(n >=0){
-        cout<<n<<" Number is positive";
+    int age;
+    cout<<"Enter the age";
+    cin>>age;
+    if(age >= 18){
+        cout<<"You can vote";
     }else{
-        cout<<n<<" Number is negative";
+        cout<<"You can't vote";
     }
     return 0;
 }
