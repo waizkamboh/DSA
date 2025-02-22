@@ -25,14 +25,39 @@ using namespace std;
 //     return 0;
 // }
 //Odd Even Program
+// int main(){
+//     int n;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     if(n % 2 == 0){
+//         cout<<n<<" Is Even";
+//     }else{
+//         cout<<n<<" Is odd";
+//     }
+//     return 0;
+// }
+
+//Grading System
 int main(){
-    int n;
-    cout<<"Enter a number";
-    cin>>n;
-    if(n % 2 == 0){
-        cout<<n<<" Is Even";
+    int marks;
+    cout<<"Enter a marks";
+    cin>>marks;
+    if(marks >= 90 && marks < 100){
+        cout<<"Grade A+";
+    }else if(marks >= 80 && marks < 90){
+        cout<<"Grade A";
+    }else if(marks >= 70 && marks < 80){
+        cout<<"Grade B";
+    }else if(marks >= 60 && marks < 70){
+        cout<<"Grade C";
+    }else if(marks >= 50 && marks < 60){
+        cout<<"Grade D";
+    }else if(marks >= 40 && marks < 50){
+        cout<<"Grade E";
+    }else if(marks >= 0 && marks < 40){
+        cout<<"Grade F";
     }else{
-        cout<<n<<" Is odd";
+        cout<<"Marks range between 0 to 100";
+
     }
-    return 0;
 }
