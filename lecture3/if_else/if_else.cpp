@@ -38,26 +38,40 @@ using namespace std;
 // }
 
 //Grading System
-int main(){
-    int marks;
-    cout<<"Enter a marks";
-    cin>>marks;
-    if(marks >= 90 && marks < 100){
-        cout<<"Grade A+";
-    }else if(marks >= 80 && marks < 90){
-        cout<<"Grade A";
-    }else if(marks >= 70 && marks < 80){
-        cout<<"Grade B";
-    }else if(marks >= 60 && marks < 70){
-        cout<<"Grade C";
-    }else if(marks >= 50 && marks < 60){
-        cout<<"Grade D";
-    }else if(marks >= 40 && marks < 50){
-        cout<<"Grade E";
-    }else if(marks >= 0 && marks < 40){
-        cout<<"Grade F";
-    }else{
-        cout<<"Marks range between 0 to 100";
+// int main(){
+//     int marks;
+//     cout<<"Enter a marks";
+//     cin>>marks;
+//     if(marks >= 90 && marks < 100){
+//         cout<<"Grade A+";
+//     }else if(marks >= 80 && marks < 90){
+//         cout<<"Grade A";
+//     }else if(marks >= 70 && marks < 80){
+//         cout<<"Grade B";
+//     }else if(marks >= 60 && marks < 70){
+//         cout<<"Grade C";
+//     }else if(marks >= 50 && marks < 60){
+//         cout<<"Grade D";
+//     }else if(marks >= 40 && marks < 50){
+//         cout<<"Grade E";
+//     }else if(marks >= 0 && marks < 40){
+//         cout<<"Grade F";
+//     }else{
+//         cout<<"Marks range between 0 to 100";
 
+//     }
+// }
+
+//Find chrachter lower or uppercase 
+int main(){
+    char ch;
+    cout<<"Enter a charchter";
+    cin>>ch;
+    if(ch >= 'A' && ch <= 'Z'){
+        cout<<"Uppercase";
+    }else{
+        cout<<"Lowercase";
     }
+    return 0;
+
 }
