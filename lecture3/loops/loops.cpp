@@ -31,15 +31,31 @@ using namespace std;
 
 //Sum of number from 1 to N using while loop
 
+// int main(){
+//     int n, sum = 0, i = 1;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     while (i <= n)
+//     {
+//         sum = sum + i;
+//         i++;
+//     }
+//     cout<<sum;
+    
+// }
+
+//Sum of number from 1 to N using for loop
+
 int main(){
-    int n, sum = 0, i = 1;
+    int n, sum = 0;
     cout<<"Enter a number";
     cin>>n;
-    while (i <= n)
+    for (int i = 1; i <= n; i++)
     {
         sum = sum + i;
-        i++;
+        
     }
+    
     cout<<sum;
     
 }
