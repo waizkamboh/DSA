@@ -53,9 +53,14 @@ int main(){
     for (int i = 1; i <= n; i++)
     {
         sum = sum + i;
+        if(i == 3){
+            break;
+        }
         
     }
     
     cout<<sum;
     
 }
+
+
