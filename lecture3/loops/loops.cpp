@@ -46,21 +46,56 @@ using namespace std;
 
 //Sum of number from 1 to N using for loop
 
+// int main(){
+//     int n, sum = 0;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         sum = sum + i;
+//         if(i == 3){
+//             break;
+//         }
+        
+//     }
+    
+//     cout<<sum;
+    
+// }
+
+//sum of all odd number from 1 to n
+// int main(){
+//     int n, sum = 0;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         if(i % 2 == 1 )
+//         sum = sum + i;
+        
+        
+//     }
+    
+//     cout<<sum;
+    
+// }
+
+//sum of all odd number from 1 to n
 int main(){
     int n, sum = 0;
     cout<<"Enter a number";
     cin>>n;
     for (int i = 1; i <= n; i++)
     {
+        if(i % 2 == 0 )
         sum = sum + i;
-        if(i == 3){
-            break;
-        }
+        
         
     }
     
     cout<<sum;
     
 }
+
 
 
