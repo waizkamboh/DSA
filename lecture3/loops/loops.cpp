@@ -81,18 +81,34 @@ using namespace std;
 // }
 
 //sum of all odd number from 1 to n
+// int main(){
+//     int n, sum = 0;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         if(i % 2 == 0 )
+//         sum = sum + i;
+        
+        
+//     }
+    
+//     cout<<sum;
+    
+// }
+
+// Sum of all numbers from 1 to n which are divisible by 3
+
 int main(){
     int n, sum = 0;
     cout<<"Enter a number";
     cin>>n;
     for (int i = 1; i <= n; i++)
     {
-        if(i % 2 == 0 )
+       if(i % 3 == 0)
         sum = sum + i;
-        
-        
+       
     }
-    
     cout<<sum;
     
 }
