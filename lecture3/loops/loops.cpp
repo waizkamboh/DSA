@@ -114,21 +114,34 @@ using namespace std;
 // }
 
 //Check Number is prime or not
+// int main(){
+//     int n, count = 0;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     for (int i = 2; i <= n-1; i++)
+//     {
+//         if(n % i == 0)
+//             count ++;
+//     }
+//     if(count == 0){
+//     cout<<n<<" Number is prime";
+//     }else{
+//     cout<<n<<" Number is not prime";
+//     }
+//     return 0;
+    
+// }
+
+//Calculate factorial of number
 int main(){
-    int n, count = 0;
+    int n, fact = 1;
     cout<<"Enter a number";
     cin>>n;
-    for (int i = 2; i <= n-1; i++)
+    for (int i = n; i >= 1; i--)
     {
-        if(n % i == 0)
-            count ++;
+        fact = fact * i;
     }
-    if(count == 0){
-    cout<<n<<" Number is prime";
-    }else{
-    cout<<n<<" Number is not prime";
-    }
-    return 0;
+    cout<<"Factorial of number is: "<<fact;
     
 }
 
