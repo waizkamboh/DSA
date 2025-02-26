@@ -99,17 +99,36 @@ using namespace std;
 
 // Sum of all numbers from 1 to n which are divisible by 3
 
+// int main(){
+//     int n, sum = 0;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//        if(i % 3 == 0)
+//         sum = sum + i;
+       
+//     }
+//     cout<<sum;
+    
+// }
+
+//Check Number is prime or not
 int main(){
-    int n, sum = 0;
+    int n, count = 0;
     cout<<"Enter a number";
     cin>>n;
-    for (int i = 1; i <= n; i++)
+    for (int i = 2; i <= n-1; i++)
     {
-       if(i % 3 == 0)
-        sum = sum + i;
-       
+        if(n % i == 0)
+            count ++;
     }
-    cout<<sum;
+    if(count == 0){
+    cout<<n<<" Number is prime";
+    }else{
+    cout<<n<<" Number is not prime";
+    }
+    return 0;
     
 }
 
