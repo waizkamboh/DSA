@@ -7,7 +7,12 @@ int main(){
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        sum = sum + i;
+                sum = sum + i;
+
+        if(i == 5){
+            break;
+        }
+
         
     }
     cout << "Sum of number is:" << sum;
