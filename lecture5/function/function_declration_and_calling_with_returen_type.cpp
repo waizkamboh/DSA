@@ -8,7 +8,8 @@ int printHello() {
 
 
 int main() {
-    
+
+    //Both function calling are same
     int val = printHello();
     cout << "Val = " << val << endl;
 

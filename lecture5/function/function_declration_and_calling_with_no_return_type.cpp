@@ -3,8 +3,7 @@ using namespace std;
 
 //Function declration or defination
 void printHello() {
-    cout << "Hello World";
-    cout << endl;
+    cout << "Hello World\n";
 }
 
 int main() {
