@@ -7,5 +7,7 @@ int main(){
     cout << (a & b) << endl;
     //Bitwise OR
     cout << (a | b) << endl;
+    //Bitwise XOR
+    cout << (a ^ b) << endl;
     return 0;
 }
