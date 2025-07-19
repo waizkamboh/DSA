@@ -9,5 +9,7 @@ int main(){
     cout << (a | b) << endl;
     //Bitwise XOR
     cout << (a ^ b) << endl;
+    //Bitwise left shift
+    cout << (4 << 1) << endl;
     return 0;
 }
