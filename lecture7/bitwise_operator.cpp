@@ -13,5 +13,7 @@ int main(){
     cout << (4 << 1) << endl;
     //Bitwise right shift
     cout << (10 >> 1) << endl;
+    //Operator precedence
+    cout << (5 - 2 * 6) << endl;
     return 0;
 }
