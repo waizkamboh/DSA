@@ -15,5 +15,7 @@ int main(){
     cout << (10 >> 1) << endl;
     //Operator precedence
     cout << (5 - 2 * 6) << endl;
+    //Equal Operator Precedence
+    cout << (4 * 5 % 2) << endl;
     return 0;
 }
