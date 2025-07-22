@@ -4,6 +4,7 @@ using namespace std;
 int main() {
     //creating fixed sized array and assign value
     int marks[5] = {100,33,44,22,11};
+    marks[0] = 200;
     cout << marks[0] << endl;
     cout << marks[1] << endl;
     cout << marks[2] << endl;
