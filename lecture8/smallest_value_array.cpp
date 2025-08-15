@@ -7,16 +7,19 @@ int main() {
     int size = 6;
     int num[size] = {5, 15, 22, 1, -15, 24};
    //We assume first index is minmum
-    int min = num[0];
+    int smallest = num[0];
 
     for (int i = 0; i < size; i++)
     {
-        if(num[i] < min){
-            min = num[i];
-        }
+        // if(num[i] < smallest){
+        //     smallest = num[i];
+        // }
+        // if we not write if statement we can write min function and find min value using min function
+        
+        smallest = min(num[i], smallest);
     }
 
-    cout << "Smallest Value of an array is:" << min;
+    cout << "Smallest Value of an array is:" << smallest << endl;
 
     //method 2
     int siz = 6;
@@ -32,7 +35,7 @@ int main() {
         }
         
     }
-    cout << "Smallest Value of an array is:" << minimum;
+    cout << "Smallest Value of an array is:" << minimum << endl; 
 
 
 }
