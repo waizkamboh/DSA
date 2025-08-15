@@ -16,4 +16,15 @@ int main() {
    cout << price[1] << endl;
    cout << price[2] << endl;
    cout << price[3] << endl;
+   // if we want to calculate array size you can do eaisly write sizeof function pass actual array and divided by array data type
+   cout << sizeof(marks) / sizeof(int);
+   //Input array using loop
+   int size = 5;
+   int marks[size];
+
+   for (int i = 0; i < size; i++)
+   {
+      marks[i];
+   }
+   
 }
