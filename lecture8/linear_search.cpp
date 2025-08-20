@@ -18,6 +18,6 @@ int linearSearch(int arr[], int size, int traget) {
 int main() {
     int arr[] = {4, 2, 7, 8, 1, 2, 5};
     int size = 7;
-    int target = 80;
+    int target = 8;
     cout << linearSearch(arr, size, target);
 }

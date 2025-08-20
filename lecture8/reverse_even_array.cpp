@@ -12,6 +12,8 @@ void reverseArray(int arr[], int size) {
     
 }
 
+
+
 int main() {
     int arr[] = {4, 2, 7, 8, 1, 2};
     int size = 6;
@@ -21,7 +23,7 @@ int main() {
        cout << arr[i] <<" ";
     }
     
-    
+
     return 0;
 
 }
