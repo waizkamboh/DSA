@@ -23,7 +23,7 @@ int intersectionOfArray(int arr1[], int arr2[], int size1, int size2) {
 }
 
 int main() {
-    int arr1[] = {1, 2, 3, 4, 5},  arr2[] = {6, 7, 3, 1};
+    int arr1[] = {1, 2, 3, 4, 5},  arr2[] = {6, 7, 3, 1,1,1};
     int size1 = 5, size2 = 4;
     intersectionOfArray(arr1, arr2, size1, size2);
     return 0;
