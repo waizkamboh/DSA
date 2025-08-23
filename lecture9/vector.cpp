@@ -15,5 +15,13 @@ int main() {
     cout << vec3[0] << endl;
     cout << vec3[1] << endl;
     cout << vec3[2] << endl;
+    vector<int> vec4 = {1, 2, 3, 0, 0};
+    for (int val : vec4)
+    {
+        cout << val << endl;
+
+    }
+    
+    
     return 0;
 }
