@@ -25,5 +25,8 @@ int main() {
     //vector function
     vec1.push_back(3);
     cout << vec1[0] << endl;
+    cout << "Size efore poping:" << vec2.size() << endl;
+    vec2.pop_back();
+    cout << "Size after poping:" << vec2.size() << endl;
     return 0;
 }
