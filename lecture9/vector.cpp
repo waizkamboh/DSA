@@ -28,5 +28,7 @@ int main() {
     cout << "Size efore poping:" << vec2.size() << endl;
     vec2.pop_back();
     cout << "Size after poping:" << vec2.size() << endl;
+
+    cout << vec4.front() << endl;
     return 0;
 }
