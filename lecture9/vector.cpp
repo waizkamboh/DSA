@@ -21,7 +21,9 @@ int main() {
         cout << val << endl;
 
     }
-    
-    
+
+    //vector function
+    vec1.push_back(3);
+    cout << vec1[0] << endl;
     return 0;
 }
