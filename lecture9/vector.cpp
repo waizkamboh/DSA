@@ -32,5 +32,7 @@ int main() {
     cout << vec4.front() << endl;
     cout << vec4.back() << endl;
     cout << vec4.at(2) << endl;
+    cout << vec4.size() << endl;
+    cout << vec4.capacity() << endl;
     return 0;
 }
