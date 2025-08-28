@@ -10,12 +10,12 @@ void maxSubArray(int arr[], int size) {
            {
               cout << arr[i];
            }
-           cout << " ,";
+           cout << " ";
         }
         cout << endl;
     }
     
-
+                   
 
 }
 
