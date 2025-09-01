@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Maximum SUb array of sum using brute force approch
 int maxSubArraySum(int arr[], int size) {
     int maxSum = INT_MIN;
     for (int st = 0; st < size; st++)
