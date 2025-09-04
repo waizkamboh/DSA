@@ -15,7 +15,7 @@ int majorityElement(vector<int> nums) {
            }
            
         }
-        if (freq = nums.size() / 2)
+        if (freq > nums.size() / 2)
         {
             return nums[i];
         }
@@ -27,7 +27,7 @@ int majorityElement(vector<int> nums) {
 }
 
 int main() {
-    vector<int> nums = {0, 0, 1, 1, 2, 2, 2, 2, 2};
+    vector<int> nums = {1, 2, 2, 1, 1};
     cout << majorityElement(nums);
     return 0;
 }
