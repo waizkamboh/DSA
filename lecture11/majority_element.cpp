@@ -1,23 +1,23 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// Find majority element using brute force approch
 int majorityElement(vector<int> nums) {
-     
-    for (int i = 0; i < nums.size(); i++)
+     int n = nums.size();
+    for (int val: nums)
     {
         int freq = 0;
-        for (int j = 0; j < nums.size(); j++)
+        for (int ele: nums)
         {
-           if (nums[i] == nums[j])
+           if (val == ele)
            {
              freq++;
            }
            
         }
-        if (freq > nums.size() / 2)
+        if (freq > n / 2)
         {
-            return nums[i];
+            return val;
         }
         
         
