@@ -15,7 +15,10 @@ int majorityElement(vector<int> nums) {
            }
            
         }
-        
+        if (freq > n / 2)
+        {
+            return val;
+        }
         
         
     }
