@@ -14,5 +14,11 @@ int main() {
     cout << &price << endl;
     cout << parentPtr << endl;
     cout << parentPtr2 << endl;
+
+    //Derefrence Operator
+    int b = 20;
+    int* ptr3 = &b;
+    int** ptr4 = &ptr3;
+    cout << *(ptr3) << endl;
     return 0;
 }
