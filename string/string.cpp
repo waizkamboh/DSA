@@ -7,6 +7,7 @@ int main() {
     string str1("Umer");
     cout << str <<" " << str1;
     string str2;
-    cin >> str2;
+    //cin >> str2;
+    getline(cin, str2);
     cout << str2;
 }
