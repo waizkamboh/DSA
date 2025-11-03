@@ -6,7 +6,7 @@ int main() {
     string str1 = "Hello World"; // Dynamic => Runtime Resize
     string str2 = "How are you";
     cout << str1 << endl;
-    //str1 = "Hello";
+    str1 = "Hello";
     cout << str1 << endl;
     string str3 = str1 + str2;
     cout << str3 << endl;
@@ -22,6 +22,10 @@ int main() {
     for (int i = 0; i < str1.length(); i++)
     {
         cout << str1[i] << " " <<endl;
+    }
+    for (char ch: str1)
+    {
+        cout << ch << " " <<endl;
     }
     
 
