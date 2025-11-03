@@ -11,5 +11,11 @@ int main() {
     string str3 = str1 + str2;
     cout << str3 << endl;
     cout << (str1 == str2) << endl;
+    cout << (str1 < str2) << endl;
+    string str4;
+    cout << "Enter a string" << endl;
+    cin >> str4;
+    cout << str4 << endl;
+
 
 }
