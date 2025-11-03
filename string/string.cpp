@@ -16,6 +16,7 @@ int main() {
     cout << "Enter a string" << endl;
     cin >> str4;
     cout << str4 << endl;
-
+    getline(cin, str4);
+    cout << str4 << endl;
 
 }
