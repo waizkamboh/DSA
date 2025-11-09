@@ -10,6 +10,11 @@ public:
   string name;
   string dep;
   string sub;
+
+  // Non parameterized constructor
+  Teacher() {
+    dep = "Computer Science";
+  }
   
   //Methods / Member function
   void changeDep(string newDep) {
@@ -28,7 +33,6 @@ public:
 int main() {
     Teacher t1;
     t1.name = "Waiz";
-    t1.dep = "CS";
     t1.sub = "Programming";
     t1.setSalary(25000);
     cout << t1.name << endl;
