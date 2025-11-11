@@ -10,6 +10,11 @@ class Person {
     Person() {
         cout << "Parent Class Constructor" << endl;
     }  
+
+    Person(string name, int age) {
+        this -> name = name;
+        this -> age = age;
+    }
 };
 
 class Student : public Person {
@@ -20,6 +25,10 @@ class Student : public Person {
         cout << "Child Class Constructor" << endl;   
     }
 
+    Student(string name, int age, int rollNo) : Person(name, age) {
+        this -> rollNo = rollNo;
+    }
+
       void getInfo() {
         cout << "Name : " << name << endl;
         cout << "Age : " << age << endl;
@@ -28,10 +37,7 @@ class Student : public Person {
 };
 
 int main() {
-    Student s1 = Student();
-    s1.name = "Waiz";
-    s1.age = 23;
-    s1.rollNo = 925;
+    Student s1 = Student("Waiz", 23, 925);
     s1.getInfo();
 
     return 0;
