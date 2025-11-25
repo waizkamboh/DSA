@@ -24,6 +24,11 @@ class List {
 
      void push_front(int val) {
         Node* newNode = new Node(val);
+        if (head == NULL)
+        {
+            head = tail = newNode;
+            return;
+        }
         
      }
 };
