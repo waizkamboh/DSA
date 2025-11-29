@@ -58,6 +58,23 @@ class List {
       
      }
 
+     void pop_back() {
+      if (head == NULL)
+      {
+        cout << "Linked List is empty\n";
+        return;
+      }
+      Node* temp = head;
+      while (temp->next != tail)
+      {
+        temp = temp->next;
+      }
+      temp->next = NULL;
+      delete tail;
+      tail = temp;
+      
+     }
+
      void print() {
       Node* temp = head;
       while (temp != NULL) {
@@ -77,6 +94,7 @@ int main() {
    ll.push_front(3);
    ll.push_back(4);
    ll.pop_front();
+   ll.pop_back();
    ll.print();
     return 0;
 }
