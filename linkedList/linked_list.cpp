@@ -75,6 +75,25 @@ class List {
       
      }
 
+     int searchLL(int val) {
+      Node* temp = head;
+      int index = 0;
+      while (temp->next != NULL)
+      {
+        if (temp->data == val)
+        {
+          return index;
+        }
+        temp = temp->next;
+        index++;
+        
+      }
+
+      return -1;
+
+      
+     }
+
      void print() {
       Node* temp = head;
       while (temp != NULL) {
@@ -96,5 +115,7 @@ int main() {
    ll.pop_front();
    ll.pop_back();
    ll.print();
-    return 0;
+   cout << endl;
+   cout << ll.searchLL(1);
+   return 0;
 }
