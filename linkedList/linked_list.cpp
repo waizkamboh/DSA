@@ -100,7 +100,7 @@ class List {
      int searchLL(int val) {
       Node* temp = head;
       int index = 0;
-      while (temp->next != NULL)
+      while (temp != NULL)
       {
         if (temp->data == val)
         {
