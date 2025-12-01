@@ -75,6 +75,28 @@ class List {
       
      }
 
+     void insert(int val, int pos) {
+      if (pos < 0)
+      {
+        cout << "Invalid Position\n";
+      }
+      if (pos == 0)
+      {
+        push_front(val);
+        return;
+      }
+      Node* temp = head;
+      for (int i = 0; i < pos-1; i++)
+      {
+        temp = temp->next;
+      }
+
+      Node* newNode = new Node(val);
+      newNode->next = temp->next;
+      temp->next = newNode;
+
+     }
+
      int searchLL(int val) {
       Node* temp = head;
       int index = 0;
@@ -114,6 +136,8 @@ int main() {
    ll.push_back(4);
    ll.pop_front();
    ll.pop_back();
+   ll.print();
+   ll.insert(3,1);
    ll.print();
    cout << endl;
    cout << ll.searchLL(1);
