@@ -44,25 +44,41 @@ class List {
       
      }
 
-     void middleOfLL() {
-      int len = 0;
-      Node* temp = head;
-      Node* temp1 = head;
-      while (temp != NULL)
+    //  void middleOfLL() {
+    //   int len = 0;
+    //   Node* temp = head;
+    //   Node* temp1 = head;
+    //   while (temp != NULL)
+    //   {
+    //     temp = temp->next;
+    //     len++;
+    //   }
+    //   int middleNode = ((len/2) + 1);
+    //   for (int i = 1; i < middleNode; i++)
+    //   {
+    //     temp1 = temp1->next;
+    //   }
+
+    //   cout << "Middle of a LinkedList" << temp1->data;
+      
+      
+    //  }
+
+    // Using Slow Fast Approch
+
+    void middleOfLL() {
+      Node* slow = head;
+      Node* fast = head;
+
+      while (fast->next != NULL && fast != NULL)
       {
-        temp = temp->next;
-        len++;
-      }
-      int middleNode = ((len/2) + 1);
-      for (int i = 1; i < middleNode; i++)
-      {
-        temp1 = temp1->next;
+        slow = slow->next;
+        fast = fast->next->next;
       }
 
-      cout << "Middle of a LinkedList" << temp1->data;
+      cout << "Middle of a LinkedList" << slow->data;
       
-      
-     }
+    }
 
 
 
