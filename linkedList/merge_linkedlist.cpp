@@ -20,7 +20,7 @@ public:
         head = tail = NULL;
     }
 
-    // Insert at end (important for sorted lists)
+    // Insert at end (important for sorted lists), if you insert using push_front, the list becomes reversed.
     void push_back(int val) {
         Node* newNode = new Node(val);
         if (head == NULL) {
@@ -77,10 +77,10 @@ Node* mergeLinkedList(Node* head1, Node* head2) {
 int main() {
     // STEP 1: Two sorted arrays
     int arr1[] = {1, 3, 5};
-    int arr2[] = {2, 4, 6};
+    int arr2[] = {2, 4, 6, 7};
 
     int n1 = 3;
-    int n2 = 3;
+    int n2 = 4;
 
     // STEP 2: Two linked lists
     List list1, list2;
